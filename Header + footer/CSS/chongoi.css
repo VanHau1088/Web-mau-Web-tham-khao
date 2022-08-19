@@ -1,0 +1,137 @@
+.text2 {
+    margin-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.manhinh {
+    margin-bottom: 3%;
+}
+
+i.fa-tv {
+    color: #273f9f;
+}
+
+.hanggheA {
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconhanggheA {
+    margin-top: 2%;
+    display: flex;
+    padding: 0 8px 46px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconhanggheB {
+    display: flex;
+    padding: 0 60px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-couch {
+    padding: 9px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+/* Hang ghe A */
+
+.hanggheA1 .fa-couch1 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch1:hover {
+    background: #6122bf;
+}
+
+
+/* Hang ghe B */
+
+.hanggheA1 .fa-couch2 {
+    justify-content: center;
+    align-items: center;
+    background: #ef2f88;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch2:hover {
+    background: #a52f66;
+}
+
+
+/* Hang ghe C */
+
+.hanggheA1 .fa-couch3 {
+    justify-content: center;
+    align-items: center;
+    background: #f47340;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch3:hover {
+    background: #b15c3b;
+}
+
+
+/* Hang ghe D */
+
+.hanggheA1 .fa-couch4 {
+    justify-content: center;
+    align-items: center;
+    background: #ecb937;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch4:hover {
+    background: #b89131;
+}
+
+.btn-chinhanh1 button {
+    padding: 0 33%;
+    height: 35px;
+    margin-top: 2%;
+    color: #fff;
+    border: 1px solid #121111;
+    background: #ce0000;
+    cursor: pointer;
+    margin-left: 335px;
+}
+
+.btn-chinhanh1 button:hover {
+    background: #aa2323;
+}
+
+.stt {
+    color: white;
+    margin-left: 253px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.stt p {
+    margin-left: 23px;
+    margin-right: 100px;
+}

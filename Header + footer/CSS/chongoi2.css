@@ -1,0 +1,304 @@
+.iconhanggheA2 {
+    margin-top: -1%;
+    justify-content: center;
+}
+
+.iconhanggheA .hanggheA1 {
+    float: left;
+}
+
+.iconhanggheA2 .hanggheA2 {
+    float: right;
+}
+
+.iconhanggheA3 .hanggheA3 {
+    float: right;
+}
+
+.iconhanggheA3 {
+    margin-left: 2%;
+    margin-right: 30%;
+}
+
+.hanggheA {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.hanggheB {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.hanggheC {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 13%;
+}
+
+.hanggheC1 {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.hanggheD {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 13%;
+}
+
+.hanggheD1 {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.hanggheE {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 14%;
+}
+
+.hanggheE1 {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+
+/* .text2 {
+    margin-top: 4%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+} */
+
+.manhinh {
+    margin-bottom: 8%;
+}
+
+i.fa-tv {
+    color: #273f9f;
+}
+
+
+/* .hanggheA {
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.iconhanggheA {
+    margin-top: 1%;
+    /* display: flex;
+    padding: 0 8px 46px; */
+}
+
+.fa-couch {
+    padding: 10px;
+    margin-left: 23px;
+    margin-right: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+/* Hang ghe A */
+
+.hanggheA1 .fa-couch1 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA2 .fa-couch1 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA3 .fa-couch1 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch1:hover {
+    background: #6122bf;
+}
+
+.fa-couch2:hover {
+    background: #6122bf;
+}
+
+
+/* Hang ghe B */
+
+.hanggheA1 .fa-couch2 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA2 .fa-couch2 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA3 .fa-couch2 {
+    justify-content: center;
+    align-items: center;
+    background: #8843f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch3:hover {
+    background: #b15c3b;
+}
+
+
+/* Hang ghe C */
+
+.hanggheA1 .fa-couch3 {
+    justify-content: center;
+    align-items: center;
+    background: #ef2f88;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA2 .fa-couch3 {
+    justify-content: center;
+    align-items: center;
+    background: #ef2f88;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA3 .fa-couch3 {
+    justify-content: center;
+    align-items: center;
+    background: #ef2f88;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch3:hover {
+    background: #a52f66;
+}
+
+
+/* Hang ghe D */
+
+.fa-couch4:hover {
+    background: #924f35;
+}
+
+.hanggheA1 .fa-couch4 {
+    justify-content: center;
+    align-items: center;
+    background: #f47340;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA2 .fa-couch4 {
+    justify-content: center;
+    align-items: center;
+    background: #f47340;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA3 .fa-couch4 {
+    justify-content: center;
+    align-items: center;
+    background: #f47340;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.fa-couch5:hover {
+    background: #b59649;
+}
+
+.hanggheA1 .fa-couch5 {
+    justify-content: center;
+    align-items: center;
+    background: #ecb937;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA2 .fa-couch5 {
+    justify-content: center;
+    align-items: center;
+    background: #ecb937;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hanggheA3 .fa-couch5 {
+    justify-content: center;
+    align-items: center;
+    background: #ecb937;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+/* text */
+
+.text {
+    margin-left: 2%;
+    color: white;
+}
+
+.btn-chinhanh1 button {
+    padding: 0 33%;
+    height: 35px;
+    margin-top: 4%;
+    color: #fff;
+    border: 1px solid #121111;
+    background: #ce0000;
+    cursor: pointer;
+    margin-left: 238px;
+}
+
+.btn-chinhanh1 button:hover {
+    background: #aa2323;
+}
+
+.stt {
+    color: white;
+    margin-left: 253px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.stt p {
+    margin-left: 23px;
+    margin-right: 100px;
+}

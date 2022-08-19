@@ -1,0 +1,767 @@
+.chitietquanli a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.chitietquanli a {
+    margin: 4px;
+    background: #23394e;
+    padding: 14px 35px;
+    border-radius: 3px;
+}
+
+.chitietquanli a:hover {
+    background: #3d5368;
+}
+
+.chitietquanli {
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.Quanliphim1 a {
+    background: #23394e;
+}
+
+i.Quanliphim1 a {
+    margin-right: 3%;
+}
+
+.fas1 {
+    margin-right: 4%;
+}
+
+.fas2 {
+    margin-right: 4%;
+}
+
+.fas3 {
+    margin-right: 4%;
+}
+
+.fas4 {
+    margin-right: 7%;
+}
+
+.fas5 {
+    margin-right: 4%;
+}
+
+.fas6 {
+    margin-right: 4%;
+}
+
+.fas7 {
+    margin-right: 4%;
+}
+
+.Quanliphim4 {
+    width: 221px;
+}
+
+.quanli {
+    display: flex;
+}
+
+.btn1,
+button {
+    background: rgb(39, 177, 39);
+    color: white;
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 7px;
+    margin-top: 50%;
+}
+
+.btn-button {
+    margin-left: 0.5%;
+}
+
+.quanliphim {
+    display: block;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 15px;
+    margin: 0px;
+    color: #fff;
+}
+
+#layout {
+    margin-left: 100px;
+}
+
+#header {
+    border-bottom: 2px solid #193756;
+    margin-right: 40px;
+}
+
+#flim {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.fa-angle-down {
+    color: #fff;
+}
+
+#logo {
+    float: left;
+    /* margin-bottom: 10px; */
+    width: 40%;
+    height: 99px;
+}
+
+#logo img {
+    object-fit: cover;
+    height: 100%;
+    width: 40%;
+    margin-bottom: 0;
+}
+
+#hRight ul li {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+
+ul#hRight li a:hover {
+    color: #2076c2;
+}
+
+ul #hRight {
+    float: right;
+}
+
+ul#hRight li {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+ul#hRight li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* Nội dung thả xuống (Ẩn theo mặc định) */
+
+.sub-menu {
+    display: none;
+    margin-top: 1px;
+    position: absolute;
+    background-color: #165387;
+    z-index: 1;
+}
+
+
+/* Liên kết bên trong danh sách thả xuống*/
+
+.sub-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+}
+
+.sub-menu a {
+    margin-right: 30px;
+}
+
+
+/* Thay đổi định dạng của liên kết thả xuống khi di chuột qua */
+
+.sub-menu a:hover {
+    background-color: #165387;
+    color: white;
+}
+
+
+/* Hiển thị menu thả xuống khi di chuột */
+
+.menu1:hover .sub-menu {
+    display: block;
+}
+
+
+/* Thay đổi màu nền của nút thả xuống khi nội dung được hiển thị */
+
+#hRight:hover .menu1 {
+    color: #cdc197;
+}
+
+.sub-menu li {
+    border-bottom: 1px solid #000;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font: 16px/1.3 sans-serif;
+}
+
+
+/*
+PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
+http://stackoverflow.com/a/34696029/383904
+*/
+
+.CSSgal {
+    position: relative;
+    overflow: hidden;
+    height: 70%;
+    width: auto;
+    /* Or set a fixed height */
+}
+
+
+/* SLIDER */
+
+.CSSgal .slider {
+    height: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    transition: 0.8s;
+}
+
+
+/* SLIDES */
+
+.CSSgal .slider>* {
+    font-size: 1rem;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background: none 50% no-repeat;
+    background-size: cover;
+}
+
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    height: 0;
+}
+
+.CSSgal .prevNext>div+div {
+    visibility: hidden;
+    /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+    background: #fff;
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    line-height: 60px;
+    /* If you want to place numbers */
+    text-align: center;
+    opacity: 0.7;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.CSSgal .prevNext a:hover {
+    opacity: 1;
+}
+
+.CSSgal .prevNext a+a {
+    left: auto;
+    right: 0px;
+}
+
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.CSSgal .bullets>a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.CSSgal .bullets>a+a {
+    background: rgba(255, 255, 255, 0.5);
+    /* Dim all but first */
+}
+
+.CSSgal .bullets>a:hover {
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+/* NAVIGATION BUTTONS */
+
+
+/* ALL: */
+
+.CSSgal>s:target~.bullets>* {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+/* ACTIVE */
+
+#s1:target~.bullets>*:nth-child(1) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s2:target~.bullets>*:nth-child(2) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s3:target~.bullets>*:nth-child(3) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s4:target~.bullets>*:nth-child(4) {
+    background: rgba(255, 255, 255, 1);
+}
+
+
+/* More slides? Add here more rules */
+
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+
+
+/* ALL: */
+
+.CSSgal>s:target~.prevNext>* {
+    visibility: hidden;
+}
+
+
+/* ACTIVE: */
+
+#s1:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s2:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s3:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s4:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+
+/* More slides? Add here more rules */
+
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s2:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s3:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s4:target~.slider {
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+}
+
+
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+.CSSgal {
+    color: #fff;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.CSSgal .slider h2 {
+    margin-top: 40vh;
+    font-weight: 200;
+    letter-spacing: -0.06em;
+    word-spacing: 0.2em;
+    font-size: 3em;
+}
+
+.CSSgal a {
+    border-radius: 50%;
+    margin: 0 3px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+h1#flim {
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    font-family: "Segoe UI";
+    font-size: 70px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    margin-top: 5px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* fOOTER */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    background: #040e18;
+    display: flex;
+}
+
+footer .container {
+    margin-left: 110px;
+    display: flex;
+}
+
+
+/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+
+footer .container .noi-dung {
+    margin-right: 30px;
+    margin-left: 65px;
+}
+
+footer .container .noi-dung.about {
+    width: 40%;
+    margin-left: 10px;
+}
+
+footer .container .noi-dung.about h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer .container .noi-dung.about h2:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer .container .noi-dung.about p {
+    color: #999;
+}
+
+
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+
+.social-icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icon li a:hover {
+    background: #f00;
+}
+
+.social-icon li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.links h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.links {
+    position: relative;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.links ul li a:hover {
+    color: #fff;
+}
+
+.contact h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info1 li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.contact .info1 li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.fa-phone {
+    margin-top: 15px;
+}
+
+.fa-envelope {
+    margin-top: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contact .info1 li span {
+    color: #999;
+}
+
+.contact .info1 li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.lable {
+    color: #fff;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    /* padding-left: 70px; */
+}
+
+.lable:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.select1 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: inherit;
+    border: 1px solid #06121e;
+    margin-left: 90px;
+}
+
+.select1 select {
+    padding: 10px 20px;
+    width: 150%;
+    /* margin-left: 80px; */
+    border-radius: 5px;
+    display: block;
+    padding-right: 30px;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 50px; */
+    margin-bottom: 50px;
+}
+
+.optione {
+    /* margin-left: 80px; */
+    /* width: 90%; */
+    height: 14%;
+}
+
+.column1 {
+    width: 100%;
+    height: 70%;
+}
+
+select option {
+    font-size: 15px;
+}
+
+.backgroundoptione {
+    width: 100%;
+}
+
+.info1 {
+    list-style: none;
+    color: #999999;
+}
+
+.info1 .contact h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.contact .info1 li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.table thead>tr>th,
+.table tbody>tr>th,
+.table tfoot>tr>th,
+.table thead>tr>td,
+.table tbody>tr>td,
+.table tfoot>tr>td {
+    padding: 28px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+th.mnv {
+    width: 200%;
+    margin: 0px;
+}

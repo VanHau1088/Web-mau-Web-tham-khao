@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1170px;
+    margin: auto 160px;
+}
+
+body {
+    font-size: 14px;
+    color: black;
+    line-height: 1.15;
+    background: #06121e;
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#wrapper h2 {
+    color: rgb(177, 162, 30);
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    border-bottom: 2px solid #1f3c58;
+    margin-bottom: 20px;
+    width: 104.2%;
+}
+
+.headline {
+    margin-left: 10px;
+}
+
+ul.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+ul.products li {
+    flex-basis: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    min-height: 50px;
+    margin-bottom: 30px;
+}
+
+ul.products li img {
+    width: 99%;
+    height: auto;
+    flex: none;
+}
+
+ul.products li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb {
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img {
+    filter: opacity(60%);
+}
+
+ul.products li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.products li .product-top a.XemPhim {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    border: 1px solid #e71010;
+    width: 50%;
+    left: 25%;
+    /* transition: 0.25s ease-in; */
+}
+
+.XemPhim {
+    margin-bottom: 60%;
+}
+
+ul.products li:hover a.XemPhim {
+    bottom: 0px;
+}
+
+a.XemPhim {
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+
+/* Dat ve */
+
+ul.products li .product-top a.DatVe {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 1px solid #e71010;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    /* transition: 0.25s ease-in; */
+}
+
+.DatVe {
+    margin-bottom: 80%;
+}
+
+ul.products li:hover a.DatVe {
+    bottom: 0px;
+}
+
+a.DatVe {
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+ul.products li .product-info a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.products li .product-info a.product-name {
+    /* font-size: 11px; */
+    /* text-transform: uppercase; */
+    color: #dbdbdb;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+ul.products li .product-info a.produtc-name2 {
+    /* font-size: 11px; */
+    /* text-transform: uppercase; */
+    color: #7a7a7a;
+    font-weight: 600;
+    padding: 2px 0px;
+}
+
+.Khung {
+    float: right;
+    position: relative;
+    right: 6%;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 22%;
+    height: 60%;
+}
+
+.Khung .chitietkhung {
+    width: 50%;
+    height: 13%;
+    color: white;
+    font-size: 17px;
+    background: #e71010;
+}
+
+.Khung .chitietkhung {
+    text-align: center;
+}
+
+.Khung .chitietba {
+    margin-top: 10px;
+}
+
+.Khung .chitietba a {
+    color: #fff;
+    margin-top: 20px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.Khung .chitietba a:hover {
+    color: #e71010;
+}

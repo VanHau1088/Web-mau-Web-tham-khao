@@ -1,0 +1,331 @@
+element.style {
+    background-image: url(Image/films-details.jpg);
+    position: relative;
+}
+
+.backdrop {
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    filter: opacity(25%);
+}
+
+.button-films {
+    position: relative;
+    float: right;
+    top: 91%;
+    right: 5%;
+    outline: none;
+    padding: 8px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.button-films a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-films:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.button-films a:hover {
+    color: black;
+}
+
+
+/* FLIMS */
+
+.flim img {
+    top: -40px;
+    width: 300px;
+    position: relative;
+    margin-left: 110px;
+}
+
+.XemPhim1 {
+    text-decoration: none;
+    background-color: #dd003f;
+    text-transform: uppercase;
+}
+
+.XemPhim1 {
+    width: 22%;
+    padding: 15px 115px;
+    background-color: #dd003f;
+    border-color: transparent;
+    color: #fff;
+    margin-left: -294px;
+    margin-bottom: -25%;
+}
+
+.XemPhim1 a {
+    position: relative;
+    margin-bottom: 3000px;
+    font-size: 15px;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    fill: #fff;
+    cursor: pointer;
+    padding: calc(0.5em - 1px) 1em;
+    white-space: nowrap;
+}
+
+.XemPhim1:hover {
+    background: #ee1141;
+}
+
+.fotmart-flims {
+    height: 25px;
+    display: flex;
+}
+
+.info1 {
+    padding-left: 48px;
+    position: relative;
+    top: -1%;
+}
+
+.info {
+    padding-left: 48px;
+    position: relative;
+    top: -317%;
+}
+
+.info .title {
+    margin-bottom: 0.7em;
+    font-family: Merriweather, serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 1.125;
+}
+
+.title2 {
+    margin-top: -1.25rem;
+    color: #b5b5b5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+.title2 a {
+    text-decoration: none;
+    color: #428bca;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.meta {
+    width: 70px;
+    height: 26px;
+    background: #2a2c2e;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: -14px;
+}
+
+.meta2 {
+    margin-top: 15px;
+}
+
+.tv-14 span {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.imdb-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin: -0.3em 0.6em 0 0;
+}
+
+.has-text-weight-bold {
+    color: #fff;
+    font-weight: 700;
+}
+
+.level-share {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.level-left {
+    display: flex;
+}
+
+.level-item {
+    margin-top: 20px;
+    background-color: #3273dc;
+    padding: 10px 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.level-item a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.level-item:hover {
+    background-color: #428bca;
+}
+
+.level-item2 {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 12px;
+    border: 1px solid #428bca;
+}
+
+.level-item2 a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.level-item2:hover {
+    background-color: #428bca;
+}
+
+.QG-KC {
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.QG-KC dt {
+    float: left;
+    clear: left;
+    margin-top: 7.3px;
+}
+
+.QG-KC dt {
+    width: 166px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+}
+
+.QG-KC dd a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.QG-KC dd {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.text {
+    font-size: 16.5px;
+    margin-top: 13px;
+    width: 64%;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #b5b5b5 !important;
+}
+
+.TRAILER {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.season {
+    margin-top: 30px;
+    color: #fff;
+}
+
+iframe {
+    height: 30%;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.media-left img {
+    margin-top: 20px;
+    width: 55%;
+    height: 90%;
+}
+
+.media-left {
+    margin-right: -8rem;
+}
+
+.season-media {
+    align-items: flex-start;
+    display: flex;
+    text-align: inherit;
+}
+
+.media-right a {
+    font-size: 19px;
+    color: #428bca;
+    cursor: pointer;
+    font-family: Merriweather, serif;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.media-right h3 {
+    margin-top: 18px;
+}
+
+.media-right p {
+    color: #b5b5b5 !important;
+    font-size: 15px;
+}
+
+.title1 {
+    margin-top: 20px;
+}
+
+.title2 {
+    margin-top: -32px;
+}
+
+
+/* 
+.QG-KC a {
+    margin-top: 30px;
+}
+
+.QG {
+    margin-top: 25px;
+} */
+
+
+/* .KC {
+    margin-top: 10px;
+} */

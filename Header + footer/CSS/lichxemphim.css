@@ -1,0 +1,45 @@
+.lichxemphim {
+    padding: 0 20%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.text2 {
+    margin-top: 2%;
+    color: white;
+    font-size: 9px;
+    font-weight: 100;
+    padding: 0 20%;
+}
+
+.text2 h1 {
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.lichxemphim select {
+    padding: 0 1%;
+    width: 934px;
+    border: 1px solid rgb(203, 198, 198);
+    height: 40px;
+    border-radius: 2px;
+}
+
+.btn-chinhanh1 button {
+    padding: 0 30%;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 3%;
+    color: #fff;
+    border: 1px solid #ce0000;
+    background: #ce0000;
+    cursor: pointer;
+    margin-left: 305px;
+}
+
+.btn-chinhanh1 button:hover {
+    background: #aa2323;
+}

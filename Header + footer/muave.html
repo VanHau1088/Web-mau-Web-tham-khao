@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Modal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="CSS/muave.css" />
+</head>
+
+<body>
+    <button class="open-modal-btn">Open Modal</button>
+
+    <div class="modal hide">
+        <div class="modal__inner">
+            <div class="modal__header">
+                <p>Mua vé nhanh</p>
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal__body">
+                <!-- <h2>Modal</h2>
+                <p>Đây là phần body của modal</p> -->
+                <div class="login-wrap">
+
+                    <div class="login-html">
+
+                        <!-- <div class="chitietkhung">
+                            MUA VÉ NHANH
+                        </div> -->
+
+                        <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+                        <label for="tab-1" class="tab">Theo phim</label>
+                        <input id="tab-2" type="radio" name="tab" class="sign-up">
+                        <label for="tab-2" class="tab">Theo ngày</label>
+
+                        <div class="login-form">
+                            <div class="sign-in-htm">
+                                <div class="group">
+                                    <div class="backgroundoptione">
+                                        <div class=optione>
+                                            <div class="column1">
+                                                <div class="clumntp1">
+                                                    <div class="field">
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn phim -</option>
+                                                                <option value="am-nhac">Âm nhạc</option>
+                                                                <option value="bi-an">Bí ẩn</option>
+                                                                <option value="chien-tranh">Chiến tranh</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn rạp - </option>
+                                                                <option value="US">Mỹ</option>
+                                                                <option value="KR">Hàn Quốc</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn ngày -</option>
+                                                                <option value="2022">2022</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn xuất -</option>
+                                                                <option value="0-60">Dưới 1 tiếng</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="hr"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sign-up-htm ">
+                                <div class="group ">
+                                    <div class="backgroundoptione">
+                                        <div class=optione>
+                                            <div class="column1">
+                                                <div class="clumntp1">
+                                                    <div class="field">
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn ngày -</option>
+                                                                <option value="am-nhac">Âm nhạc</option>
+                                                                <option value="bi-an">Bí ẩn</option>
+                                                                <option value="chien-tranh">Chiến tranh</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn rạp - </option>
+                                                                <option value="US">Mỹ</option>
+                                                                <option value="KR">Hàn Quốc</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn ngày -</option>
+                                                                <option value="2022">2022</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="select1">
+                                                            <select>
+                                                                <option selected="" value="">- Chọn xuất -</option>
+                                                                <option value="0-60">Dưới 1 tiếng</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="hr"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <input type="submit" value="Mua vé" class="btn1">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal__footer">
+                <!-- <button>Close</button> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
