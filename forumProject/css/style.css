@@ -1,0 +1,682 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+* {
+  /* font-family: "Montserrat", sans-serif !important; */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background-color: #f5f8fa;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-form{
+  width: 100vw;
+  height: 100vh;
+  background: url("https://br-art.vn/wp-content/uploads/2017/07/background-phong-canh-48-768x432.jpg") no-repeat center / cover;
+  background-size: 100%;
+}
+
+.login-container {
+  width: 650px;
+  height: 450px;
+  margin: auto;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 35px;
+  transition: 0.9s;
+}
+
+.login-container:hover{
+  background-color: rgba(0, 0, 0, .7);
+} 
+
+.register-container:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
+.register-container {
+  width: 650px;
+  height: 650px;
+  margin: auto;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 35px;
+  transition: 0.9s;
+}
+
+.myInputContain{
+  color: #fff;
+  display: flex;
+  margin: 20px;
+}
+.myInput{
+  width: 355px;
+  background-color: transparent;
+  color: #fff;
+  border: none ;
+}
+::placeholder{
+  color: #fff;
+}
+.myLabel{
+  width: 160px;
+}
+.big-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-control {
+  height: 60px;
+  border-radius: 10px;
+}
+.label-input {
+  line-height: 60px;
+}
+.myError{
+  color: red;
+  font-size: 15px;
+}
+.ver-contain{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+  margin: 100px auto;
+}
+#email-notifi{
+  font-size: 30px;
+  color: cornflowerblue
+}
+#disciption{
+  text-align: center;
+}
+.mt-4 a{
+  font-style: italic;
+  font-weight: 700;
+  cursor: pointer;
+}
+.loader {
+  margin: 0 auto;
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #db4257; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.infor-screen{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url("https://br-art.vn/wp-content/uploads/2017/07/background-phong-canh-48-768x432.jpg") no-repeat center / cover;
+  justify-content: center;
+  align-items: center;
+
+}
+.paper{
+  background-color: rgba(0, 0, 0, .3);
+  width: 60%;
+  min-width: 600px;
+  height: 55vh;
+  min-height: 450px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  transition: 0.9s;
+}
+.paper:hover{
+  background-color: rgba(0, 0, 0, .7);
+}
+.infor-container{
+  width: 70%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.ava-container{
+width: 30%;
+min-width: 200px;
+display: flex;
+justify-content: center;
+  align-items: center;
+
+}
+.ava{
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+
+}
+
+.caution{
+  color: red;
+}
+
+.cs-body{
+  margin: 0 auto;
+  width: 90%;
+  height: 70%;
+  background-color: rgba(248, 248, 248, 0.726);
+}
+.cs-left{
+  width: 80%;
+  height: 100%;
+
+  flex-direction: column;
+}
+.cs-right{
+  width: 20%;
+  height: 97%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 5%;
+  background-color: #E8E1D9;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px rgb(0 0 0/ 30%);
+}
+.cs-listPost{
+  width: 100%;
+  position: relative;
+  height: 100%;
+  flex-direction: column;
+  overflow: auto;
+   /* background-color: #125C13; */
+   
+   background-color: #188452;
+   border-radius: 15px;
+   margin-top: 1px;
+}
+.cs-listPost::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(227, 180, 228, 0.3);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.cs-listPost::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.cs-listPost::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #e2e2e2;
+}
+.btnCreatePost{
+  width: 200px;
+}
+.cs-uInforArea{
+  width: 100%;
+  height: 50%;
+
+}
+.cs-postContain{
+  width: 95%;
+  height: fit-content;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  
+}
+.cs-postInfor{
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  font-weight: 700;
+  background-color: #F4A442;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cs-contentArea{
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+}
+.cs-content{
+  text-align: justify;
+  padding: 10px;
+  min-height: fit-content;
+}
+.cs-postImg{
+  width: 60vw;
+  height: 60vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 5px auto;
+}
+.line{
+  border-top: 1px solid #212529;
+  border-bottom: 1px solid #212529;
+}
+.cs-actionArea{
+  margin-top: 5px;
+  width: 100%;
+  height: 38px;
+  /* background-color: aqua; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btn-like{
+  width: 5%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 7px;
+  margin: 0 3px;
+}
+.btn-like:hover{
+  background-color: rgba(192,192,192, .4);
+}
+.like-img{
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://img.icons8.com/ios/50/000000/facebook-like--v1.png");
+  /* <img src="https://img.icons8.com/ios-filled/50/000000/facebook-like.png"/> */
+}
+.cs-postAva{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px;
+  cursor: pointer;
+
+}
+.cs-inforModal{
+  margin: 10px;
+  position: relative;
+  width: 40%;
+  height: 100%;
+  background-color: antiquewhite;
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  z-index: 9;
+}
+.cs-uInforArea{
+  
+  position: relative;
+  width: 100%;
+  height: 40%;
+
+}
+/* .cs-postAva:hover .cs-inforModal{
+  display: flex !important;
+  visibility: visible;
+  opacity: 1;
+} */
+.lc-show{
+  width: 100%;
+  height: 40px;
+  background-color: #F4A442;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+.likeCount{
+  display: inline-block;
+  margin-left: 10px;
+  
+  
+
+}
+.cmtCount{
+  display: inline-block;
+  margin-right: 10px;
+}
+.likeIcon{
+  width: 30px;
+  height: 30px;
+}
+.show {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+.cs-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100px;
+  height: auto;
+  background: #fff;
+  color: #333;
+  /* display: flex; */
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 8px;
+  z-index: 10;
+
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.hide{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.cs-avaModal{
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  margin-top: 5%;
+}
+.cs-subModal{
+  justify-content: space-between;
+  margin-left: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 10%;
+  margin: 10%;
+  display: inline;
+  width: 40%;
+}
+.cs-name{
+  font-weight: 700;
+}
+.composer-contain{
+  width: 90%;
+ 
+}
+.btn-success.d-block{
+
+  width: 70%;
+  
+  
+}
+
+.composer-contain > input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 330%;
+  background-color: rgba(128,128,128,.3);
+  border-radius: 25px;
+  color: #000;
+
+}
+.comment-container {
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.list-container {
+  width: 100%;
+  height:fit-content;
+  flex-direction: column;
+  margin: 4px 0px;
+  padding: 8px;
+  overflow: auto;
+}
+
+.list-container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(227, 180, 228, 0.3);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.list-container::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #e2e2e2;
+}
+
+.cmt-item-container {
+  flex-direction: column;
+  margin: 6px 0px;
+}
+
+.author-item {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 15px;
+}
+
+.content-item {
+  background-color: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 4px;
+  width: fit-content;
+}
+
+.avatar-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid rgb(207, 207, 207);
+  margin: 4px 6px;
+}
+
+.cmt-item-right {
+  justify-content: flex-end;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.cmt-item-right > div:last-child {
+  flex-direction: row-reverse;
+}
+
+.btn{
+margin-left: 28px;
+background-color: #227a5e;
+  border-color: #227a5e;
+} 
+
+.cs-header{
+
+  height: 100%;
+  line-height: 80px;
+  padding-top: 5px;
+  padding-left: 70%;
+  margin: 0%;
+  display: inline;
+  color: #fff;
+  height: 100px;
+  /* background-color: #573391; */
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #125C13;
+  list-style-type: none;
+
+  
+}
+
+.logo_container ul {
+  color: #fff;
+  font-size: 30px;
+  
+ 
+}
+
+.cs-header{
+
+  background: #125C13;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+     0 2px 2px rgba(0,0,0,0.12),
+     0 4px 4px rgba(0,0,0,0.12),
+     0 8px 8px rgba(0,0,0,0.12),
+     0 16px 16px rgba(0,0,0,0.12);
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: 0.5s;
+     position: relative;
+     display: block;
+     height: 80px;
+     line-height: 80px;
+     padding: 0 100px;
+     box-sizing: border-box;
+     color: #fff;
+     cursor:Pointer;
+    padding-top: 2px;
+    }
+    
+  
+    .cs-header::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      transform-origin: left;
+      z-index: -1;
+      transform: scaleX(0);
+      transition:  transform 0.5s;
+      cursor: ponter;
+      }
+
+
+    
+
+    
+.cs-header:hover:before{
+  transform-origin: right;
+  cursor: ponter;
+  transform: scaleX(1);
+}
+
+.cs-header:hover{
+  color: #262626;
+  cursor: ponter;
+  }
+  
+
+ .cs-header .N4{
+   padding: 0 50%;
+   font-size: 30px;
+   font-weight: 700;
+ }
+    
+  .cs-footer{
+    background-color: #125C13;
+    color: #fff;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-top: 1.5%;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: #4b644b;
+    text-decoration: none;;
+    margin-top: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+     0 2px 2px rgba(0,0,0,0.12),
+     0 4px 4px rgba(0,0,0,0.12),
+     0 8px 8px rgba(0,0,0,0.12),
+     0 16px 16px rgba(0,0,0,0.12);
+  }
+
+
+
+
+.TTLH{
+  color: #fff;
+  height: 30%;
+  font-size: 15px;
+  margin-left: 60%;
+  cursor: pointer;
+  display: inline-block;
+} 
+
+.Trang_Chu{
+  position:relative;
+  padding-left: 30%;
+}
+
+.TTLH:hover{
+  color:#19221a
+}
+
+.address{
+  cursor: pointer;
+  margin-left: 10%;
+  display: inline-block;
+
+}
+.address:hover{
+  color:#19221a
+}
+
+
+
+.lorem{
+  width: 50%;
+  font-weight: 350;
+  
+}
+
+
+
+
+
+
